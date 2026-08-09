@@ -1,0 +1,1468 @@
+{
+  "inputs": {
+    "input0": [
+      224,
+      224,
+      3
+    ]
+  },
+  "outputs": {
+    "output0": [
+      1,
+      1,
+      3
+    ]
+  },
+  "params_quantity": 2227715,
+  "loss": [
+    [
+      1,
+      0.12899
+    ],
+    [
+      2,
+      0.02742
+    ],
+    [
+      3,
+      0.02647
+    ],
+    [
+      4,
+      0.01701
+    ],
+    [
+      5,
+      0.00633
+    ],
+    [
+      6,
+      0.01038
+    ],
+    [
+      7,
+      0.00558
+    ],
+    [
+      8,
+      0.01068
+    ],
+    [
+      9,
+      0.01267
+    ],
+    [
+      10,
+      0.01026
+    ],
+    [
+      11,
+      0.00356
+    ],
+    [
+      12,
+      0.00275
+    ],
+    [
+      13,
+      0.00893
+    ],
+    [
+      14,
+      0.01283
+    ],
+    [
+      15,
+      0.00825
+    ],
+    [
+      16,
+      0.00412
+    ]
+  ],
+  "acc": [
+    [
+      1,
+      0.96433
+    ],
+    [
+      2,
+      0.99385
+    ],
+    [
+      3,
+      0.99139
+    ],
+    [
+      4,
+      0.99754
+    ],
+    [
+      5,
+      0.99815
+    ],
+    [
+      6,
+      0.99938
+    ],
+    [
+      7,
+      0.99877
+    ],
+    [
+      8,
+      0.99938
+    ],
+    [
+      9,
+      0.99938
+    ],
+    [
+      10,
+      0.99692
+    ],
+    [
+      11,
+      1.0
+    ],
+    [
+      12,
+      1.0
+    ],
+    [
+      13,
+      0.99938
+    ],
+    [
+      14,
+      0.99938
+    ],
+    [
+      15,
+      0.99815
+    ],
+    [
+      16,
+      0.99877
+    ]
+  ],
+  "lr": [
+    [
+      1,
+      0.001
+    ],
+    [
+      2,
+      0.00087
+    ],
+    [
+      3,
+      0.00075
+    ],
+    [
+      4,
+      0.00065
+    ],
+    [
+      5,
+      0.00056
+    ],
+    [
+      6,
+      0.00049
+    ],
+    [
+      7,
+      0.00042
+    ],
+    [
+      8,
+      0.00037
+    ],
+    [
+      9,
+      0.00032
+    ],
+    [
+      10,
+      0.00027
+    ],
+    [
+      11,
+      0.00024
+    ],
+    [
+      12,
+      0.00021
+    ],
+    [
+      13,
+      0.00018
+    ],
+    [
+      14,
+      0.00015
+    ],
+    [
+      15,
+      0.00013
+    ],
+    [
+      16,
+      0.00012
+    ]
+  ],
+  "val_loss": [
+    [
+      10,
+      2e-05
+    ],
+    [
+      16,
+      1e-05
+    ]
+  ],
+  "val_acc": [
+    [
+      10,
+      1.0
+    ],
+    [
+      16,
+      1.0
+    ]
+  ],
+  "mean": 123.5,
+  "std": 58.395,
+  "label_type": "classification",
+  "data_type": "image",
+  "labels": [
+    "cube",
+    "tri",
+    "cir"
+  ],
+  "best_eval": {
+    "epoch": 16,
+    "val_acc": 1.0,
+    "val_info": [
+      {
+        "name": "1caa394d5395497b8dfc161e4995c27b.jpg",
+        "nickname": "0516224324_254.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "5d5acd2185d946669ff9d6fdf4029936.jpg",
+        "nickname": "0516224355_385.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "93448bde50714c9a9e17c14e97193b77.jpg",
+        "nickname": "0408214258_1381.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "365eed09d2694ea5a00e998c21117e18.jpg",
+        "nickname": "0408200244_742.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "ae016f7abb184ba8815798548b9f8b30.jpg",
+        "nickname": "0516231201_1065.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "b9d4c16c8bae49d3923e17a7fc77a8e5.jpg",
+        "nickname": "0516224400_408.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "f7c938af6f374f56bbfcb8ec6ea0969d.jpg",
+        "nickname": "0408220122_1955.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "55aa4df4cecf45ce9b6ad7fd0f187f08.jpg",
+        "nickname": "0516231052_955.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "d5d0ecbd43704957af1cb7afbe8a1154.jpg",
+        "nickname": "0408194654_67.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "acb75499b7f641caa14a15edad12d86a.jpg",
+        "nickname": "0408200445_774.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "d6bc4a30f0424c909ff5212d3d16ab49.jpg",
+        "nickname": "0408194526_27.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "ee794f20c50944dfa4edc1aaf49efff1.jpg",
+        "nickname": "0516231102_1025.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "8ca1b9637466412ca7cca5c397d858f5.jpg",
+        "nickname": "0516224758_784.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "1e59505af57e4cd0aa7825b99bf03319.jpg",
+        "nickname": "0516224807_834.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "2e97866ecf41440d9eb108e4d548e236.jpg",
+        "nickname": "0408195543_494.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "ae89adb24b5b463e8480c5775c9849df.jpg",
+        "nickname": "0408195608_510.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "93f2e73155a64fd79bda0b501743bc98.jpg",
+        "nickname": "0516231056_982.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "e5f92e0198cb45c68a3adece941de176.jpg",
+        "nickname": "0516231058_1000.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "015050954d804370a036a8a40eb63ea9.jpg",
+        "nickname": "0516224331_283.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "314600cdfbcd477ea1d32076e2ba9fbb.jpg",
+        "nickname": "0516224422_505.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "e0880f6d79644359ac12ee8aa399c5f1.jpg",
+        "nickname": "0408211948_901.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "74e1129d94c74a54ad8db6d86d75a41a.jpg",
+        "nickname": "0516224730_621.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "efe0718838b0477a8bd0aea5fc7b42a3.jpg",
+        "nickname": "0408211922_876.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "a6e6f6513d2547d1b7c716fd7d3f5608.jpg",
+        "nickname": "0408220104_1945.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "b320c52e5bb64cf6b4f36b03a3f94a6e.jpg",
+        "nickname": "0516224741_685.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "593ed0af303e472c86d348aa8d2bd7ac.jpg",
+        "nickname": "0516231035_867.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "811b5217ce584bb68cc874ebd0c9024a.jpg",
+        "nickname": "0516231158_1055.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "667b50b066774056a0fe5a4eacf87a81.jpg",
+        "nickname": "0516224747_717.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "7594186843e148f3ac3a76dba69d5cf3.jpg",
+        "nickname": "0516224747_722.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "7a3bda335b0d44b8b5e4584e1da70746.jpg",
+        "nickname": "0408212115_970.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "2ed2248fa95e4432be7fc4020c138b5c.jpg",
+        "nickname": "0516224358_402.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "143e9641c3654365adbeff9949f97879.jpg",
+        "nickname": "0516224730_623.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "18880c498bdf443fbe44c74cdfd02653.jpg",
+        "nickname": "0516224724_588.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "9c5840af971e4511ac140acf1d6cc8da.jpg",
+        "nickname": "0408200246_746.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "bee78a9d2e8244e88dbf7df16527334b.jpg",
+        "nickname": "0408195959_715.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "bdd2d36a117941b3a8a6ec2c3d50b87e.jpg",
+        "nickname": "0408214522_1462.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "1245f3dc5b0447b78f22ead0e38c03e4.jpg",
+        "nickname": "0408214259_1383.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "e818b5a67b474035bdea7d9ae4952a63.jpg",
+        "nickname": "0516224804_820.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "b1aec61730c040f68f105bd0a072c574.jpg",
+        "nickname": "0516231225_1137.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "66d89a2ea4544b35b395912f22298845.jpg",
+        "nickname": "0408200330_769.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "0bbe76287f8448bcac1a84be5bf1cb46.jpg",
+        "nickname": "0516231059_1005.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "c80d0eabbdbc4273aa5944537b8fc5ae.jpg",
+        "nickname": "0516231046_924.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "40da2e11257e42289bc076f07c7800cb.jpg",
+        "nickname": "0516224747_719.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "a69e7162926842d9861de71a7f6675ef.jpg",
+        "nickname": "0516224749_732.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "26f13739246d479382dc1a29cb3924c5.jpg",
+        "nickname": "0408194518_1.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "7916a5bb3fff47f297d546b5aaa0eed8.jpg",
+        "nickname": "0516224348_354.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "e3f974bc222f4946bfbef23a89e00924.jpg",
+        "nickname": "0408212011_927.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "fbfc2c871e0b479cb3193b565068117e.jpg",
+        "nickname": "0408212126_977.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "328eda84a2784d47acfdb777e009cee9.jpg",
+        "nickname": "0408213903_1203.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "fc752214ed9345a1a42f1293e7c111f9.jpg",
+        "nickname": "0408213516_1053.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "37ac0e4afc9e4296b8680a5de8004608.jpg",
+        "nickname": "0408213623_1089.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "9b00426b35ef41e5a288f8cc7fba771a.jpg",
+        "nickname": "0516224359_401.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "93a03e590f784b1bb133a895d42f4a09.jpg",
+        "nickname": "0408211926_889.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "a9331ec57e4b4179a556a9fbd9da48b6.jpg",
+        "nickname": "0408194923_244.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "b3d0e9c567684bbe9d3425f79eba4227.jpg",
+        "nickname": "0516231205_1076.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "90066520dfab4918abd2f2219a2d0457.jpg",
+        "nickname": "0408195612_532.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "93af753a099242efb657f9b89557bc67.jpg",
+        "nickname": "0516224330_280.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "644c079efae84336bc61192d6e407dcb.jpg",
+        "nickname": "0408200301_749.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "0da456b1ff4d4208a3570e5cc51fe059.jpg",
+        "nickname": "0516224324_252.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "e5587111c95d4a8e86e3f34771b66236.jpg",
+        "nickname": "0408195659_570.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "d783137d6c2e45e5a0bd421f05837e90.jpg",
+        "nickname": "0408211924_882.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "44d3da03e6af4de190639e13d3bc78fb.jpg",
+        "nickname": "0516231041_896.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "9f212e3f5a5c4f82994a5b00a7094180.jpg",
+        "nickname": "0516224740_683.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "14541648e3ee495096d6a29c443eb01e.jpg",
+        "nickname": "0408212125_974.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "0ef0fbd615444435acd87096ee8a0e3a.jpg",
+        "nickname": "0408214451_1435.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "524bd2ecfd5a4a9e8a92f14a4ad3dd29.jpg",
+        "nickname": "0516224339_313.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "23e32ce5c42148e4922deb6024134433.jpg",
+        "nickname": "0516224754_761.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "391609d1b386406e832b49492e823bfa.jpg",
+        "nickname": "0516224753_755.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "01c610d408dd4dc98d717c67549b85eb.jpg",
+        "nickname": "0516231042_903.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "33b37436f67a4adc88308e1b6e0cc4e7.jpg",
+        "nickname": "0516231036_870.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "fd1dfc9aadc84f4aa2b7ea5610913e6f.jpg",
+        "nickname": "0516231046_928.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "913cf4026aaf4fa7b9beffe86ec8ab0e.jpg",
+        "nickname": "0516224758_781.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "e88bd634314d463a94de3b457c8f3481.jpg",
+        "nickname": "0408220047_1929.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "edc782cf769f47ef8788e577715a413d.jpg",
+        "nickname": "0516224424_509.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "953c7f1ca2684aec81879cd2ce9387f6.jpg",
+        "nickname": "0408213751_1134.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "a6c584b3a85a40b3b07ec2b6443cfb6e.jpg",
+        "nickname": "0516224745_710.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "e06293e596e040649c1c20341fbb6488.jpg",
+        "nickname": "0408213625_1096.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "86ff83a5b55443539f9e992816dbc0c8.jpg",
+        "nickname": "0408194929_270.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "29927aae78ba4b31a3d2e7ff5404a9a5.jpg",
+        "nickname": "0516224744_706.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "fd20e50d4e5c45a6b6ba817424160481.jpg",
+        "nickname": "0516224416_483.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "f36943c1105640a180edae07ad13b030.jpg",
+        "nickname": "0516224728_609.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "e183eddc3dd34e3db70c0b5dbe08b993.jpg",
+        "nickname": "0516231043_909.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "cc63f8cf23274afd82bd5adc5dbbf0a5.jpg",
+        "nickname": "0516224805_822.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "efe7181c34c74495be86495df8128b0c.jpg",
+        "nickname": "0516231039_888.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "d1e4b3a9ae7e42c78e743105dca6cd0d.jpg",
+        "nickname": "0516224758_783.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "b3f32c7d63a247aebed97f65097f7298.jpg",
+        "nickname": "0516231215_1106.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "1754c2f4fbfe4a64a3bbdc01b61643a7.jpg",
+        "nickname": "0516224347_351.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "86237f004b1642b499e25b4c6b395d65.jpg",
+        "nickname": "0516224408_444.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "0188ca63538f4797a15921847e1a9b4b.jpg",
+        "nickname": "0408200444_772.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "45a22e5bb3a144f6bfc8cff82d4c22d1.jpg",
+        "nickname": "0516224359_405.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "2436a2fe55af4f32a723660a9384786c.jpg",
+        "nickname": "0516224738_669.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "afeaa687e1c542b4b3dad35447294ed8.jpg",
+        "nickname": "0516231214_1102.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "b0c42363922849f2b2d235869566b7de.jpg",
+        "nickname": "0516224732_636.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "73d8cd891b9c484a9cd25e871dcb90e3.jpg",
+        "nickname": "0408194652_56.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "b8f97c03298c4a21bf7eac868cfffba3.jpg",
+        "nickname": "0408195952_679.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "aee1f9360f1446dc8f1cd71ec95388c8.jpg",
+        "nickname": "0408195952_681.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "4b43c243e5274aae8f77df19102241d2.jpg",
+        "nickname": "0408195545_504.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "f6bd6c115d614a709e241b3054402990.jpg",
+        "nickname": "0516231050_948.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "489ba9343bbc42e5a12adbecd69c18b0.jpg",
+        "nickname": "0516224748_726.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "10d15265507f4d8aa19a4afeb5b8fc07.jpg",
+        "nickname": "0408213624_1092.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "fe403d55f0dd41b2986c12d224db66c6.jpg",
+        "nickname": "0408212021_929.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "9475a42f15a540978c06527d1f9232fa.jpg",
+        "nickname": "0408213945_1217.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "de8379e7dbc245f691d5974ee3e7a5cb.jpg",
+        "nickname": "0408211920_864.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "117373aacb114018a0317ba91df64180.jpg",
+        "nickname": "0516224727_604.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "a8490d18ba734185b650747855419e7e.jpg",
+        "nickname": "0516231222_1127.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "91c7ea803b304b42906eb2f96c5d3512.jpg",
+        "nickname": "0408200245_743.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "8e408d4f7a5d493cbb3ee60f8e2323bb.jpg",
+        "nickname": "0408200305_761.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "1d3c265eb84f429a94c557e4defd1a76.jpg",
+        "nickname": "0516224751_740.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "6cdcdf49e01b4138aebe0f7b9b21e9c3.jpg",
+        "nickname": "0516231209_1088.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "58c1f7a65ac940f7bea622323ef22d3d.jpg",
+        "nickname": "0408213738_1110.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "08310e6c9c0d4366bcb8220001aeda7c.jpg",
+        "nickname": "0516224400_409.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "92fce90029b344b5809c929674e59e5f.jpg",
+        "nickname": "0516231227_1143.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "eefbee4d97f044778ed83e7487c16f6c.jpg",
+        "nickname": "0516224327_267.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "b849a2ee73b346ea9cae1a2b371f6ea5.jpg",
+        "nickname": "0516224341_327.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "06f5611e106f4ebabe9e8ebdac2c0a62.jpg",
+        "nickname": "0408213603_1074.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "0e4254f25b654776a5c29fd609a431bc.jpg",
+        "nickname": "0408213902_1199.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "e8a13e3757be4471b820b0de2ef61f41.jpg",
+        "nickname": "0516224420_493.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "63716ea1e39147a194f130d88f73cffb.jpg",
+        "nickname": "0516224724_587.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "8878c5e9318b48e0a529ee5267a144d6.jpg",
+        "nickname": "0516231037_874.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "e58519ccde2040ea94a93368fba6dabf.jpg",
+        "nickname": "0516224719_558.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "3e3162cd645d4819a79d360e42b838bb.jpg",
+        "nickname": "0408200453_798.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "b84b879d53ae4fa7851494cc39564f15.jpg",
+        "nickname": "0408194756_112.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "5162e168f4724a45b99fa33383e64944.jpg",
+        "nickname": "0516224720_563.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "2981ac546ed64499851885f368faeabf.jpg",
+        "nickname": "0516224721_571.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "eb957f56a267402d9488b0656c7264cd.jpg",
+        "nickname": "0408213748_1123.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "91f0b76f7c514c7db0454f3b1eef9774.jpg",
+        "nickname": "0516224349_361.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "89d34dbdc6de43c2b4da98cd61ee0b5a.jpg",
+        "nickname": "0516231046_926.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "b936a0f4a0d94281a75c4d4249ed3cb0.jpg",
+        "nickname": "0516224726_603.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "1c55f486462b4963b66c30762beb2f77.jpg",
+        "nickname": "0516224359_404.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "53af02e6a3554b68925226c04547ac7d.jpg",
+        "nickname": "0516224332_287.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "ac94e6888d424ef5aebb2f0fa84bce8e.jpg",
+        "nickname": "0516224739_675.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "cc3fc45d30274dc886c07f244e8f7c5b.jpg",
+        "nickname": "0516231048_935.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "c46b829d81194d618d9e5d55bbe3129e.jpg",
+        "nickname": "0408213942_1206.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "78f289319ed6491f806e4d6694eb277c.jpg",
+        "nickname": "0408213739_1115.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "a767486c7d474c13827ba7f7dc5f716b.jpg",
+        "nickname": "0408215429_1744.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "26fe2c42c97444718b4a5b8e2bcc2678.jpg",
+        "nickname": "0408212113_960.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "0671f9c23368488c81b4d73de2544efb.jpg",
+        "nickname": "0408195659_571.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "6dc3e11ebc4f4564ab35e00ac14352fa.jpg",
+        "nickname": "0408213944_1213.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "b3d894c6bf55401ca0ef641dad2a42dd.jpg",
+        "nickname": "0516224354_383.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "f158ce457e6e419c8dd35043c3abed0d.jpg",
+        "nickname": "0516224418_487.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "59b01d146a4548799fb25550b39f5409.jpg",
+        "nickname": "0408215415_1743.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "25ad5a00d4e04d4cb45fe41810a44040.jpg",
+        "nickname": "0516224802_806.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "8c8d3e16c6e64f40a0ec1ce1d3651f19.jpg",
+        "nickname": "0516231041_898.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "0d744acac0fa499180a65f5abc74bf77.jpg",
+        "nickname": "0408200302_753.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "02be3df2f1c24c508ee92b349832bf35.jpg",
+        "nickname": "0408214521_1456.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "01029ad220aa4625a47c585aca2fb674.jpg",
+        "nickname": "0516224745_709.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "71927fc61efe4f38a444d65167053735.jpg",
+        "nickname": "0408213514_1048.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "a83f4ec6ecd0421393fff21e71e0de90.jpg",
+        "nickname": "0408211951_913.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "0d9c9ff5e289448a8b1ba3c938f37da1.jpg",
+        "nickname": "0516231041_900.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "4316b024c791467abdd4b93268d5fdfb.jpg",
+        "nickname": "0516224351_367.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "e7bf9da6c63640d1a502f8a1bac73028.jpg",
+        "nickname": "0516231200_1062.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "ec88c0f41ef94f618667b60007f15c68.jpg",
+        "nickname": "0516224720_566.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "bd9856b5775841008502b3b8773f36e6.jpg",
+        "nickname": "0408194928_268.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "ed32ad7a071a4c969549b56a861528fe.jpg",
+        "nickname": "0516224330_279.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "2f56aad64337464f84e739ae8674a913.jpg",
+        "nickname": "0408213950_1239.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "c8e8fb4f1b5f4b8f8cd12015fb3193a0.jpg",
+        "nickname": "0516224403_422.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "58e7d369339b4f46bd06c945ded0428f.jpg",
+        "nickname": "0516231201_1064.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "0a7e74b04ef14893993ebc7043c8527c.jpg",
+        "nickname": "0516231059_1007.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "659203973df44189978d11e8ee71df82.jpg",
+        "nickname": "0516224759_788.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "bc40d54144a349eebd30eef42a535942.jpg",
+        "nickname": "0408195540_485.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "3b29d9bf15bc4f26bd814d28d9d860c6.jpg",
+        "nickname": "0408194921_237.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "9dc414088b2b4bf9944c19898520519e.jpg",
+        "nickname": "0408200446_775.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "527c0f7a72164c5d8104e45d86385163.jpg",
+        "nickname": "0408212059_951.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "3d3c5acf8f09454f97cf8e4c66e23b74.jpg",
+        "nickname": "0408211925_887.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "74e11576bd9145f5a5782a25ddc9b33f.jpg",
+        "nickname": "0408194927_264.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "17d864b7270a4e11b311a87263717cb2.jpg",
+        "nickname": "0516224338_314.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "e7b9592d93ba49a6be997f86f01ed428.jpg",
+        "nickname": "0408213757_1149.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "6c934169b083448dbc7cf54d43c27290.jpg",
+        "nickname": "0516231100_1009.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "6b27a3b7aa104a808b55c12ac76bf094.jpg",
+        "nickname": "0408194531_40.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "aa56aeee34ab40339c03a81a59cb5fc4.jpg",
+        "nickname": "0408213846_1182.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "965e9de8b3054022a045476aad512678.jpg",
+        "nickname": "0408211949_906.jpg",
+        "pred": 2,
+        "gt": 2,
+        "ok": true
+      },
+      {
+        "name": "12e759ebc857481ca86f02d2c9c2606a.jpg",
+        "nickname": "0516231047_930.jpg",
+        "pred": 1,
+        "gt": 1,
+        "ok": true
+      },
+      {
+        "name": "c7f02257f02a4e309a12dcb6ad64ff84.jpg",
+        "nickname": "0408195700_573.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      },
+      {
+        "name": "ab072c22ec6c44958a92283db1ba5ffa.jpg",
+        "nickname": "0408194654_63.jpg",
+        "pred": 0,
+        "gt": 0,
+        "ok": true
+      }
+    ]
+  }
+}
